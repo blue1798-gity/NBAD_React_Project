@@ -1,0 +1,94 @@
+.create-budget-container {
+  max-width: 1000px; /* Increased max-width */
+  margin: 0 auto;
+  padding: 100px;
+  background-color: #f9f7f7;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+  margin-top: -50px;
+  overflow: hidden; /* Ensure children don't overflow container */
+}
+
+
+.create-budget-container:hover {
+  transform: translateY(-5px);
+}
+
+.input-group {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.input-group label {
+  font-weight: 600;
+  position: absolute;
+  top: -15px;
+  left: 20px;
+  background-color: #f9f7f7;
+  padding: 0 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.input-group input,
+.input-group .react-datepicker__input-container input {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  box-shadow: inset 8px 8px 12px rgba(0, 0, 0, 0.05),
+              inset -8px -8px 12px rgba(255, 255, 255, 0.5);
+  transition: box-shadow 0.3s ease;
+}
+
+.input-group input:focus,
+.input-group .react-datepicker__input-container input:focus {
+  outline: none;
+  box-shadow: inset 8px 8px 12px rgba(0, 0, 0, 0.05),
+              inset -8px -8px 12px rgba(255, 255, 255, 0.5),
+              0 0 0 2px #8e44ad;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #0202aa;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.create-button {
+  background-color: #8e44ad;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  padding: 15px 30px;
+  font-size: 18px;
+  box-shadow: 0 6px 12px rgba(45, 1, 64, 0.2);
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.create-button:hover {
+  background-color: #b6b059;
+  transform: translateY(-2px);
+}
+
+.create-button:active {
+  background-color: rgb(70, 68, 173);
+  box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+.input-group label {
+  font-weight: 600;
+  position: absolute;
+  top: 50%; /* Adjusted top value to vertically center the label */
+  transform: translateY(-50%); /* Center vertically relative to the input */
+  left: 20px;
+  background-color: #f9f7f7;
+  padding: 0 10px;
+  font-size: 14px;
+  color: #555;
+}

@@ -1,0 +1,131 @@
+/* ExpenseCapacity.css */
+.expense-capacity-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+  margin-bottom: 150px;
+}
+
+.add-expense-box {
+  flex: 1;
+  padding: 20px;
+}
+
+.capacity-data-box {
+  flex: 1;
+  padding: 20px;
+}
+
+.header {
+  font-size: 2.5rem;
+  color: #a30505;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #a70404;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.select-dropdown,
+.input-field {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.select-dropdown {
+  width: 100%;
+}
+
+.input-field {
+  width: 100%;
+}
+
+/* Styling for the button */
+.add-expense-button {
+  background-color: #4800ff;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.add-expense-button:hover {
+  background-color: rgb(226, 241, 4);
+}
+
+.capacity-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #7b0000;
+}
+
+.capacity-table th,
+.capacity-table td {
+  border: 1px solid #c50000;
+  padding: 8px;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.capacity-table th {
+  background-color: #4006df;
+  color: #fff;
+}
+
+.modal {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(246, 1, 1, 0.2);
+  text-align: center;
+}
+
+.overlay {
+  background-color: rgba(168, 4, 4, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Add button styling */
+.add-budget-button {
+  background-color: #c300ff; /* Background color */
+  color: #fff; /* Text color */
+  border: none; /* Remove button border */
+  padding: 12px 20px; /* Padding for the button */
+  margin-top: 20px; /* Margin from the top */
+  cursor: pointer; /* Add cursor pointer on hover */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 1.2rem; /* Font size */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+  width: 100%; /* Full-width button */
+}
+
+/* Button hover effect */
+.add-budget-button:hover {
+  background-color: rgb(4, 213, 241); /* Background color on hover */
+}

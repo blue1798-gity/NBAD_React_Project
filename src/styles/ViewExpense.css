@@ -1,0 +1,35 @@
+
+.budget-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+
+}
+.financial-summary-container
+{
+  margin-top: -300px;
+}
+.table-row {
+  display: flex;
+  padding: 2px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+}
+
+.table-row.header {
+  background-color: rgb(181, 11, 248);
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.table-cell {
+  flex: 1;
+  padding: 12px;
+  text-align: center;
+}
+
+.remaining-balance {
+  color: rgb(128, 2, 0); 
+}
